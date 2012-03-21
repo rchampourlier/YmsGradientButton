@@ -10,6 +10,6 @@
 
 @interface YmsCAGradientLayerButton : YmsGradientButton
 
-- (CAGradientLayer *)configureGradientForState:(UIControlState)aState withConfig:(NSDictionary *)buttonConfig;
+- (NSArray *)configureGradientsForState:(UIControlState)aState withConfig:(NSDictionary *)buttonConfig;
 
 @end

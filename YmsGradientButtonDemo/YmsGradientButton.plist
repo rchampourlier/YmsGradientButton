@@ -11,89 +11,104 @@
 		<key>borderColor</key>
 		<integer>0</integer>
 		<key>textColor</key>
-		<integer>0xFF000000</integer>
-		<key>colors</key>
-		<array>
-			<integer>0xFFFFFFFF</integer>
-			<integer>0xFFD3D3D3</integer>
-		</array>
-		<key>locations</key>
-		<array>
-			<string>0.0</string>
-			<string>1.0</string>
-		</array>
-		<key>startPoint</key>
-		<array>
-			<real>0.5</real>
-			<integer>0</integer>
-		</array>
-		<key>endPoint</key>
-		<array>
-			<real>0.5</real>
-			<real>1</real>
-		</array>
+		<integer>4278190080</integer>
+		<key>gradients</key>
+    <array>
+      <dict>
+        <key>locations</key>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+        <key>colors</key>
+        <array>
+          <integer>4294967295</integer>
+          <integer>4292072403</integer>
+        </array>
+        <key>startPoint</key>
+        <array>
+          <real>0.5</real>
+          <integer>0</integer>
+        </array>
+        <key>endPoint</key>
+        <array>
+          <real>0.5</real>
+          <integer>1</integer>
+        </array>
+      </dict>
+    </array>
 	</dict>
 	<key>highlighted</key>
 	<dict>
+		<key>gradients</key>
+    <array>
+      <dict>
+        <key>locations</key>
+        <array>
+          <real>0.1</real>
+          <real>0.5</real>
+        </array>
+        <key>colors</key>
+        <array>
+          <integer>4294967295</integer>
+          <integer>4292072403</integer>
+        </array>
+        <key>startPoint</key>
+        <array>
+          <real>0.5</real>
+          <integer>0</integer>
+        </array>
+        <key>endPoint</key>
+        <array>
+          <real>0.5</real>
+          <integer>1</integer>
+        </array>
+      </dict>
+    </array>
 		<key>borderWidth</key>
 		<integer>0</integer>
 		<key>cornerRadius</key>
 		<integer>3</integer>
 		<key>borderColor</key>
-		<integer>0xFF808080</integer>
+		<integer>4286611584</integer>
 		<key>textColor</key>
-		<integer>0xFF2e8b57</integer>
-		<key>colors</key>
-		<array>
-			<integer>0xFFFFFFFF</integer>
-			<integer>0xFFD3D3D3</integer>
-		</array>
-		<key>locations</key>
-		<array>
-			<real>0.1</real>
-			<real>0.5</real>
-		</array>
-		<key>startPoint</key>
-		<array>
-			<real>0.5</real>
-			<integer>0</integer>
-		</array>
-		<key>endPoint</key>
-		<array>
-			<real>0.5</real>
-			<real>1</real>
-		</array>
+		<integer>4281240407</integer>
 	</dict>
 	<key>disabled</key>
 	<dict>
+		<key>gradients</key>
+		<array>
+			<dict>
+				<key>locations</key>
+				<array>
+					<real>0.02</real>
+					<real>0.3</real>
+				</array>
+				<key>colors</key>
+				<array>
+					<integer>4294967295</integer>
+					<integer>4292072403</integer>
+				</array>
+				<key>startPoint</key>
+				<array>
+					<real>0.5</real>
+					<integer>0</integer>
+				</array>
+				<key>endPoint</key>
+				<array>
+					<real>0.5</real>
+					<integer>1</integer>
+				</array>
+			</dict>
+		</array>
 		<key>borderWidth</key>
 		<integer>1</integer>
 		<key>cornerRadius</key>
 		<integer>3</integer>
 		<key>borderColor</key>
-		<integer>0xFF999999</integer>
+		<integer>4288256409</integer>
 		<key>textColor</key>
-		<integer>0xFF808080</integer>
-		<key>colors</key>
-		<array>
-			<integer>0xFFFFFFFF</integer>
-			<integer>0xFFD3D3D3</integer>
-		</array>
-		<key>locations</key>
-		<array>
-			<real>0.02</real>
-			<real>0.3</real>
-		</array>
-		<key>startPoint</key>
-		<array>
-			<real>0.5</real>
-			<integer>0</integer>
-		</array>
-		<key>endPoint</key>
-		<array>
-			<real>0.5</real>
-			<real>1</real>
-		</array>
+		<integer>4286611584</integer>
 	</dict>
 	<key>shadow</key>
 	<dict>
@@ -107,7 +122,7 @@
 		<key>shadowOpacity</key>
 		<real>1.5</real>
 		<key>shadowColor</key>
-		<integer>0xFF000000</integer>
+		<integer>4278190080</integer>
 		<key>shadowRadius</key>
 		<real>2.5</real>
 		<key>anchorPoint</key>
