@@ -7,7 +7,7 @@
 		<key>borderWidth</key>
 		<integer>1</integer>
 		<key>cornerRadius</key>
-		<integer>3</integer>
+		<integer>10</integer>
 		<key>borderColor</key>
 		<integer>4279136429</integer>
 		<key>textColor</key>
@@ -66,26 +66,22 @@
 	</dict>
 	<key>highlighted</key>
 	<dict>
-		<key>borderWidth</key>
-		<integer>1</integer>
-		<key>cornerRadius</key>
-		<integer>3</integer>
-		<key>borderColor</key>
-		<integer>4286611584</integer>
-		<key>textColor</key>
-		<integer>4281240407</integer>
 		<key>gradients</key>
 		<array>
 			<dict>
 				<key>colors</key>
 				<array>
-					<integer>2415853568</integer>
-					<integer>1895825152</integer>
+					<integer>4294967295</integer>
+					<integer>4286961143</integer>
+					<integer>4278236395</integer>
+					<integer>4286961143</integer>
 				</array>
 				<key>locations</key>
 				<array>
-					<real>0.1</real>
-					<real>0.5</real>
+					<string>0,1</string>
+					<real>0.2</real>
+					<real>0.75</real>
+					<integer>1</integer>
 				</array>
 				<key>startPoint</key>
 				<array>
@@ -95,10 +91,18 @@
 				<key>endPoint</key>
 				<array>
 					<real>0.5</real>
-					<real>1</real>
+					<integer>1</integer>
 				</array>
 			</dict>
 		</array>
+		<key>borderWidth</key>
+		<integer>1</integer>
+		<key>cornerRadius</key>
+		<integer>10</integer>
+		<key>borderColor</key>
+		<integer>4279136429</integer>
+		<key>textColor</key>
+		<integer>4294967295</integer>
 	</dict>
 	<key>disabled</key>
 	<dict>

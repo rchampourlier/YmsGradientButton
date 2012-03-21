@@ -115,14 +115,15 @@
   int borderColorValue = [borderColor integerValue];
   float borderWidthValue = [borderWidth floatValue];
   
-  
+  float roundBorderMargin = cornerRadiusValue > 0 ? 1 : 0;
   // Render path and set clipping region
   UIBezierPath *bPath = [UIBezierPath bezierPathWithRoundedRect:
-                         CGRectMake(cornerRadiusValue, 
-                                    cornerRadiusValue, 
-                                    self.bounds.size.width - (cornerRadiusValue * 2), 
-                                    self.bounds.size.height - (cornerRadiusValue * 2))
+                         CGRectMake(roundBorderMargin, 
+                                    roundBorderMargin, 
+                                    self.bounds.size.width - 2 * roundBorderMargin, 
+                                    self.bounds.size.height - 2 * roundBorderMargin)
                                                    cornerRadius:cornerRadiusValue];
+  // Making the path a little smaller or we'll get some artifacts on the border.
   
   [ARGBCSS(borderColorValue) setStroke];
   [[UIColor clearColor] setFill];
