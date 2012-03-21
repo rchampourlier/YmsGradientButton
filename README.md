@@ -29,6 +29,10 @@ Author of the fork: Romain Champourlier <romain@softr.li>
 
 iOS UIButton subclass featuring plist configured bitmap-free gradients.
 
+### Changes from the fork
+
+* Now supports **multiple gradients** for a button. As such, **beware, the Property List structure is a little different!**
+
 ## Quickstart
 
 * Copy YmsGradientButton.[hm], YmsStyleSheet.h and YmsGradientButton.plist to 
@@ -93,6 +97,13 @@ The contents of the configuration plist are as follows:
   - **shadowRadius** Number *float*<br/>Radius size of shadow.
   - **anchorPoint** Array *float*Array of two float elements mapping to a point to anchor the shadow. Element 0 is X, Element 1 is Y.
    
+   
+## Releases
+
+### `1.0.0` first release of the fork
+
+* **Added multiple-gradients support**  
+  **Warning!** This involved a change in the PropertyList structure. Gradients' colors, locations, start and end point are now expected under a `gradients` array. `colors`, `locations`, `startPoint` and `endPoint` are keys for each gradient inside the `gradients` array. (Just look at the examples, they have been updated.)
 
 ## Notes
 * This code is written using ARC. 
