@@ -1,2 +1,3 @@
 *.DS_STORE
-YmsGradientButtonDemo.xcodeproj/xcuserdata/
+YmsGradientButtonDemo.xcodeproj/xcuserdata/*
+YmsGradientButtonDemo.xcodeproj/project.xcworkspace/xcuserdata/*
