@@ -296,9 +296,9 @@
       return NO;
     }
     
-    [states release];
   }
-  
+  [states release];
+
   NSDictionary *shadow = (NSDictionary *)[buttonConfig objectForKey:@"shadow"];
   
   if (shadow != nil) {
