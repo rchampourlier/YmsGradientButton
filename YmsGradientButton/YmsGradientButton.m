@@ -57,6 +57,8 @@
     [NSException raise:@"Invalid YmsGradientButton Configuration" 
                 format:@"Please revise the file %@.plist to confirm that it has legal values.", self.resourceName];
   }
+  
+  [buttonConfig release];
 }
 
 
@@ -293,6 +295,8 @@
       NSLog(@"ERROR: borderWidth is not defined in the %@ section of %@.plist", stateName, self.resourceName);
       return NO;
     }
+    
+    [states release];
   }
   
   NSDictionary *shadow = (NSDictionary *)[buttonConfig objectForKey:@"shadow"];
