@@ -69,7 +69,7 @@
 		D9802CDF14BD79E000D508D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9802CE114BD79E000D508D2 /* YmsGradientButtonDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YmsGradientButtonDemoTests.h; sourceTree = "<group>"; };
 		D9802CE214BD79E000D508D2 /* YmsGradientButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YmsGradientButtonDemoTests.m; sourceTree = "<group>"; };
-		D9802CF114BD7AAC00D508D2 /* YmsStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YmsStyleSheet.h; sourceTree = "<group>"; };
+		D9802CF114BD7AAC00D508D2 /* YmsStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YmsStyleSheet.h; path = YmsGradientButton/YmsStyleSheet.h; sourceTree = SOURCE_ROOT; };
 		D9802CF214BD7ACD00D508D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D9E0A7E614BD80C400079CE7 /* YourButton.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YourButton.plist; sourceTree = "<group>"; };
 		D9E0A7E914BD80E400079CE7 /* YourButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourButton.h; sourceTree = "<group>"; };
@@ -104,6 +104,7 @@
 		7AF58AF015248FED00649CDA /* YmsGradientButton */ = {
 			isa = PBXGroup;
 			children = (
+				D9802CF114BD7AAC00D508D2 /* YmsStyleSheet.h */,
 				7AF58AF11524903F00649CDA /* YmsCAGradientLayerButton.h */,
 				7AF58AF21524903F00649CDA /* YmsCAGradientLayerButton.m */,
 				7AF58AF31524903F00649CDA /* YmsCAGradientLayerButton.plist */,
@@ -153,7 +154,6 @@
 				D9802CC714BD79E000D508D2 /* AppDelegate.m */,
 				D9802CC914BD79E000D508D2 /* ViewController.h */,
 				D9802CCA14BD79E000D508D2 /* ViewController.m */,
-				D9802CF114BD7AAC00D508D2 /* YmsStyleSheet.h */,
 				D9E0A7E914BD80E400079CE7 /* YourButton.h */,
 				D9E0A7EA14BD80E400079CE7 /* YourButton.m */,
 				D9E0A7E614BD80C400079CE7 /* YourButton.plist */,
