@@ -29,6 +29,13 @@ iOS UIButton subclass featuring plist configured bitmap-free gradients.
   name to create your own custom button.
 * YmsGradientButton can also be instantiated programmatically.
 
+### Branches
+
+Two branches are available in the repo:
+* `master`: the main one, with ARC
+* `non-arc`: synchronized with master, non ARC (**not completely converted yet, though**)
+
+
 ## Documentation
 
 ### Configuration

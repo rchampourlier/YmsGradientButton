@@ -57,8 +57,6 @@
     [NSException raise:@"Invalid YmsGradientButton Configuration" 
                 format:@"Please revise the file %@.plist to confirm that it has legal values.", self.resourceName];
   }
-  
-  [buttonConfig release];
 }
 
 
@@ -68,7 +66,7 @@
 }
 
 - (void)genGradientsForState:(UIControlState)aState withConfig:(NSDictionary *)buttonConfig {
-  UIGraphicsBeginImageContext(self.bounds.size);
+  UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, 2.0); // using a 2.0 scale enables high-quality rendering for Retina displays
   CGContextRef context = UIGraphicsGetCurrentContext();
   
   [self gradientsImplementationForState:aState withConfig:buttonConfig forContext:context];
