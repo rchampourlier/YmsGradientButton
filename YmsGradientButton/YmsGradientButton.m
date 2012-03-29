@@ -57,6 +57,8 @@
     [NSException raise:@"Invalid YmsGradientButton Configuration" 
                 format:@"Please revise the file %@.plist to confirm that it has legal values.", self.resourceName];
   }
+  
+  [buttonConfig release];
 }
 
 
