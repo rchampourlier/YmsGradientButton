@@ -293,8 +293,6 @@
       NSLog(@"ERROR: borderWidth is not defined in the %@ section of %@.plist", stateName, self.resourceName);
       return NO;
     }
-    
-    [states release];
   }
   
   NSDictionary *shadow = (NSDictionary *)[buttonConfig objectForKey:@"shadow"];
