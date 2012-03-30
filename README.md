@@ -3,7 +3,8 @@
 Forked from <https://github.com/kickingvegas/YmsGradientButton>
 
 ## Have a look!
-<https://skitch.com/softrli/8m9pe/skitched-20120321-153151>
+
+![image](https://github.com/rchampourlier/YmsGradientButton/blob/master/Screenshot.png?raw=true)
 
 ## Description
 
