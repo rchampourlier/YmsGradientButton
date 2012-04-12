@@ -46,9 +46,14 @@
   NSMutableDictionary *buttonConfig = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
   
   if ([self validateConfiguration:buttonConfig]) {
+    
     [self configureShadow:buttonConfig];
-    [self genGradientsForState:UIControlStateNormal withConfig:buttonConfig];        
-    [self genGradientsForState:UIControlStateHighlighted withConfig:buttonConfig];        
+    [self genGradientsForState:UIControlStateNormal withConfig:buttonConfig];
+    if ([buttonConfig objectForKey:@"highlighted"]) {
+      // If we don't have an 'highlighted' section in the config file, we let
+      // iOS perform the highlighting.
+      [self genGradientsForState:UIControlStateHighlighted withConfig:buttonConfig];        
+    }
     [self genGradientsForState:UIControlStateDisabled withConfig:buttonConfig];        
     
     [self.layer setNeedsDisplay];
@@ -210,7 +215,14 @@
 - (BOOL)validateConfiguration:(NSDictionary *)buttonConfig {
   BOOL result = YES;
   
-  NSArray *states = [[NSArray alloc] initWithObjects:@"normal", @"highlighted", @"disabled", nil];
+  NSMutableArray *states = [[NSMutableArray alloc] initWithObjects:@"normal", @"disabled", nil];
+  
+  if ([buttonConfig objectForKey:@"highlighted"] != nil) {
+    // If the highlighted section is present, we add it to the processed states.
+    // Otherwise we assume iOS will perform the highlighting through its default
+    // behaviour.
+    [states addObject:@"highlighted"];
+  }
   
   for (NSString *stateName in states) {
     NSArray *gradients = (NSArray *)[(NSDictionary *)[buttonConfig objectForKey:stateName] objectForKey:@"gradients"];
