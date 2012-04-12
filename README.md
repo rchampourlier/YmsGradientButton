@@ -92,6 +92,10 @@ The contents of the configuration plist are as follows:
    
 ## Releases
 
+### `1.0.2`
+
+* The `highlighted` section is now optional. If you don't add it to your `.plist` configuration file, the button will let iOS do the highlighting.
+
 ### `1.0.1`
 
 * Added the Javascript color helper mini-application
