@@ -17,6 +17,7 @@ iOS UIButton subclass featuring plist configured bitmap-free gradients.
 * Now supports **multiple gradients** for a button. As such, **beware, the Property List structure is a little different!**
 * Added a (really) small Javascript application to **help you with converting your RGB colors** to the integer value to be used in the `.plist` file.
 * Added a repository to share `.plist` files of your button styles!
+* The `highlighted` section in the button's config file is optional, so you can just let iOS do the default highlighting.
 
 ## Quickstart
 
