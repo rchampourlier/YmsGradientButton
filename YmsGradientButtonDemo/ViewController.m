@@ -27,7 +27,7 @@
     YmsGradientButton *button = [YmsGradientButton buttonWithType:UIButtonTypeCustom];
     button.titleLabel.font = [UIFont boldSystemFontOfSize:15.0f];
     [button setTitle:@"YmsGradientButton Programmed" forState:UIControlStateNormal];
-    button.frame = CGRectMake(20, 193, 280, 37);
+    button.frame = CGRectMake(20, 160, 280, 37);
     [button renderGradients];
     
     // You can directly specify which configuration plist file to use 
