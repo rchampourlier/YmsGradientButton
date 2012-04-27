@@ -54,6 +54,10 @@
       // iOS perform the highlighting.
       [self genGradientsForState:UIControlStateHighlighted withConfig:buttonConfig];        
     }
+    if ([buttonConfig objectForKey:@"selected"]) {
+      // If we don't have an 'selected' section, uses default iOS behavior.
+      [self genGradientsForState:UIControlStateSelected withConfig:buttonConfig];  
+    }
     [self genGradientsForState:UIControlStateDisabled withConfig:buttonConfig];        
     
     [self.layer setNeedsDisplay];
@@ -103,6 +107,10 @@
     stateName = @"highlighted";
   }
 	
+  else if (aState == UIControlStateSelected) {
+    stateName = @"selected";
+  }
+  
   else if (aState == UIControlStateDisabled) {
     stateName = @"disabled";
   }
@@ -222,6 +230,10 @@
     // Otherwise we assume iOS will perform the highlighting through its default
     // behaviour.
     [states addObject:@"highlighted"];
+  }
+  if ([buttonConfig objectForKey:@"selected"] != nil) {
+    // If the selected section is present, we add it to the processed states.
+    [states addObject:@"selected"];
   }
   
   for (NSString *stateName in states) {
