@@ -131,7 +131,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">YourButton Instance</string>
+						<string key="IBUINormalTitle">YourButton [enabled]</string>
 						<reference key="IBUIHighlightedTitleColor" ref="572987077"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -155,7 +155,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">YourButton Instance</string>
+						<string key="IBUINormalTitle">YourButton [disabled]</string>
 						<reference key="IBUIHighlightedTitleColor" ref="572987077"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -179,7 +179,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">YourButton Instance</string>
+						<string key="IBUINormalTitle">YourButton [enabled+selected]</string>
 						<reference key="IBUIHighlightedTitleColor" ref="572987077"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -203,7 +203,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">YourButton Instance</string>
+						<string key="IBUINormalTitle">YourButton [enabled+highlighted]</string>
 						<reference key="IBUIHighlightedTitleColor" ref="572987077"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>

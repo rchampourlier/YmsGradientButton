@@ -5,11 +5,11 @@
 	<key>normal</key>
 	<dict>
 		<key>borderWidth</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>cornerRadius</key>
 		<integer>5</integer>
 		<key>borderColor</key>
-		<integer>4279136429</integer>
+		<integer>4282400832</integer>
 		<key>textColor</key>
 		<integer>4294967295</integer>
 		<key>gradients</key>
@@ -18,8 +18,68 @@
 				<key>colors</key>
 				<array>
 					<integer>4294967295</integer>
-					<integer>4286961143</integer>
-					<integer>4278236395</integer>
+					<integer>4283190348</integer>
+					<integer>4283190348</integer>
+				</array>
+				<key>locations</key>
+				<array>
+					<string>0</string>
+					<real>0.05</real>
+					<integer>1</integer>
+				</array>
+				<key>startPoint</key>
+				<array>
+					<real>0.5</real>
+					<integer>0</integer>
+				</array>
+				<key>endPoint</key>
+				<array>
+					<real>0.5</real>
+					<integer>1</integer>
+				</array>
+			</dict>
+			<dict>
+				<key>colors</key>
+				<array>
+					<integer>452984831</integer>
+					<integer>452984831</integer>
+				</array>
+				<key>locations</key>
+				<array>
+					<string>0</string>
+					<integer>1</integer>
+				</array>
+				<key>startPoint</key>
+				<array>
+					<real>0.5</real>
+					<integer>0</integer>
+				</array>
+				<key>endPoint</key>
+				<array>
+					<real>0.5</real>
+					<real>0.5</real>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<key>selected</key>
+	<dict>
+		<key>borderWidth</key>
+		<integer>2</integer>
+		<key>cornerRadius</key>
+		<integer>5</integer>
+		<key>borderColor</key>
+		<integer>4282400832</integer>
+		<key>textColor</key>
+		<integer>4294967295</integer>
+		<key>gradients</key>
+		<array>
+			<dict>
+				<key>colors</key>
+				<array>
+					<integer>4294967295</integer>
+					<integer>4293729316</integer>
+					<integer>4293729316</integer>
 				</array>
 				<key>locations</key>
 				<array>
