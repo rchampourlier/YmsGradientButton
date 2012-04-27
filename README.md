@@ -8,16 +8,22 @@ Forked from <https://github.com/kickingvegas/YmsGradientButton>
 
 ## Description
 
-iOS UIButton subclass featuring plist configured bitmap-free gradients.
+iOS UIButton subclass featuring **plist configured bitmap-free gradients**.
 
 *This is a fork, check the bottom of the README for the original author and license.*
 
 ### Changes from the fork
 
-* Now supports **multiple gradients** for a button. As such, **beware, the Property List structure is a little different!**
-* Added a (really) small Javascript application to **help you with converting your RGB colors** to the integer value to be used in the `.plist` file.
+** Multiple gradients • Selected state • Javascript color tool • Optional highlighted state
+**
+
+#### Details
+
+* The fork supports **multiple gradients** for a button. As such, **beware, the Property List structure is a little different!**
+* Added a (really) small Javascript application to **help you with converting your RGB colors** to the integer value to be used in the `.plist` file (see ColorHelper).
 * Added a repository to share `.plist` files of your button styles!
 * The `highlighted` section in the button's config file is optional, so you can just let iOS do the default highlighting.
+* Supports a `selected` section in the plist so that you can define a specific style for your selected state.
 
 ## Quickstart
 
@@ -37,7 +43,7 @@ iOS UIButton subclass featuring plist configured bitmap-free gradients.
 
 Two branches are available in the repo:
 * `master`: the main one, with ARC
-* `non-arc`: synchronized with master, non ARC (**not completely converted yet, though**)
+* `non-arc`: synchronized with master, non ARC (**it may not be completely converted yet, though**)
 
 
 ## Documentation
@@ -92,6 +98,10 @@ The contents of the configuration plist are as follows:
    
    
 ## Releases
+
+### `1.0.3`
+
+* Add support for the `selected` section in the `.plist`, thus allowing you to defines different gradients for your selected state.
 
 ### `1.0.2`
 
