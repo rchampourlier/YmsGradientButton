@@ -67,7 +67,6 @@
                 format:@"Please revise the file %@.plist to confirm that it has legal values.", self.resourceName];
   }
   
-  [buttonConfig release];
 }
 
 
@@ -320,7 +319,6 @@
       return NO;
     }
   }
-  [states release];
 
   NSDictionary *shadow = (NSDictionary *)[buttonConfig objectForKey:@"shadow"];
   
